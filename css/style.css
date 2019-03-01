@@ -1,0 +1,72 @@
+@media screen and (min-width: 993px)
+ {
+
+
+.main-header {
+    background-color: red;
+    height: 10vh;
+    width: 200vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-header h1 {
+    color: white;
+    font-size: 5vh;
+    text-transform : uppercase;
+    text-align: center;
+    
+}
+
+.main-section {
+    position: absolute;
+    left: 0;
+    top: 2vh;
+    margin: 0;
+    font-size: 5vh;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    height: 50vh;
+    width: 200vh;
+    
+
+}
+
+.main-section h2 {
+    font-size: 5vh; 
+    background-color: green;
+    flex-basis: 20%;
+
+}
+
+.main-section p {
+    font-size: 5vh;
+    background-color: lightseagreen;
+    flex-basis: 60%;
+}
+
+.main-section h3 {
+    font-size: 5vh;
+    background-color: lightsalmon;
+    flex-basis: 20%;
+}
+
+.main-footer {
+    position: absolute;
+    left: 0;
+    top: 49vh;
+    font-size: 5vh;
+    height: 10vh;
+    width: 200vh;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: plum;
+}
+}
